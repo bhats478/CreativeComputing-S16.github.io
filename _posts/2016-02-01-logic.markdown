@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Logic"
+date:   2015-02-02 15:50:00 -0500
+classdate: 2016-02-02 15:50:00 -0500
+---
+<img src="/images/blindssuck.gif" />

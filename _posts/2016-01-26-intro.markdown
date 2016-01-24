@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Introduction"
+date:   2015-01-26 15:50:00 -0500
+classdate: 2016-01-26 15:50:00 -0500
+---
+
+## What makes a webpage
+
+Every webpage must have HTML. Most, but not all webpages, also use CSS and Javascript.
+
+* HTML: What is the content? How is it structured?
+* CSS: What does it look like?
+* JavaScript: What does it do?
+
+## Variables and Statements
+
+Here is how you can create a variable to save your string:
+
+{% highlight javascript %}
+var myPhrase = "This is a string";
+{% endhighlight %}
+
+
+## p5.js
+
+<a href="/examples/drawing.js" class="p5_example show-lab show-lab-link hidden">test_example</a>
+
+**Shapes**
+
+* arc()
+* ellipse()
+* line()
+* point()
+* quad()
+* rect()
+* triangle()
+
+## Color
+
+background()
+clear()
+colorMode()
+fill()
+noFill()
+noStroke()
+stroke()
+
+These all do the same thing:
+
+{% highlight javascript %}
+fill("white");
+fill(255, 255, 255);
+fill("#FFFFFF");
+{% endhighlight %}
+
+<div class="assignment">
+	<h3>Classwork</h3>
+	<ul>
+  	<li><a href="/assignments/portfolio.html">Shapes</a></li>
+	</ul>
+</div>
+<div class="assignment">
+	<h3>Homework</h3>
+	<h4><a href="#">Scene</a></h4>
+	<p>Create a recognizable scene (not an abstract drawing). It must use three different types of shapes. It should be complex, with a foreground and a background, and use different colors.</p>
+</div>

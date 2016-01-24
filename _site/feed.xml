@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Core Interaction</title>
+    <description></description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Jan 2016 23:32:49 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2016 23:32:49 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>The browser</title>
+        <description>&lt;h2 id=&quot;lecture-slides&quot;&gt;Lecture slides&lt;/h2&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/1BGOw8c8G13o0Yw6_ZASsRMVF4-a1uhlKUU63djE76CE/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;setting-up-your-development-environment&quot;&gt;Setting up your development environment&lt;/h2&gt;
+
+&lt;p&gt;We will be using Github and Cloud 9 for all Lab assignments.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Start by signing up for a &lt;a href=&quot;http://github.com&quot;&gt;github&lt;/a&gt; account if you haven’t already.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://github.com&quot;&gt;&lt;img src=&quot;/images/github-home.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Then create an account on &lt;a href=&quot;http://c9.io&quot;&gt;Cloud9&lt;/a&gt; by using your new GitHub account:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://c9.io&quot;&gt;&lt;img src=&quot;/images/cloud9.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;hypertext-markup-language-html&quot;&gt;HyperText Markup Language (HTML)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Anatomy of an HTML document&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Webpage Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+		
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; is where meta-data about the webpage goes, such as the title and the CSS. The visible elements of a webpage go inside the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+
+&lt;p&gt;These are some common tags we will use today:&lt;/p&gt;
+
+&lt;div class=&quot;&quot;&gt;
+&lt;table class=&quot;table&quot;&gt;
+	&lt;tr&gt;
+		&lt;th&gt;element&lt;/th&gt;
+		&lt;th&gt;tag&lt;/th&gt;
+		&lt;th&gt;description&lt;/th&gt;
+		&lt;th&gt;example&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;h1&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt; &amp;lt;/h1&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Heading 1&lt;/td&gt;
+		&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Example Heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;h2&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt; &amp;lt;/h2&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Heading 2&lt;/td&gt;
+				&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Example Heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;h3&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt; &amp;lt;/h3&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Heading 3&lt;/td&gt;
+				&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Example Heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;h4&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4&amp;gt; &amp;lt;/h4&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Heading 4&lt;/td&gt;
+				&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Example Heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;p&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Paragraph text&lt;/td&gt;
+				&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Example text&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;ul&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ul&amp;gt; &amp;lt;/ul&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Unordered list&lt;/td&gt;
+				&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Item 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Item 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;ol&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ol&amp;gt; &amp;lt;/ol&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Ordered list&lt;/td&gt;
+						&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ol&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Item 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Item 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ol&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;li&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt; &amp;lt;/li&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;List item&lt;/td&gt;
+						&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Item 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Item 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;a&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href=&quot;&quot;&amp;gt; &amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Link&lt;/td&gt;
+						&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://github.com&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Link to github&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;img&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img src=&quot;&quot; /&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Image&lt;/td&gt;
+								&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/path/to/image.png&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;br&lt;/td&gt;
+		&lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt;&lt;/td&gt;
+		&lt;td&gt;Line break&lt;/td&gt;
+								&lt;td&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+		&lt;/td&gt;
+	&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;cascading-stylesheets-css&quot;&gt;Cascading StyleSheets (CSS)&lt;/h2&gt;
+
+&lt;p&gt;Styling can be added to HTML elements in 3 ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inline - using a &lt;code&gt;style&lt;/code&gt; attribute in HTML elements&lt;/li&gt;
+  &lt;li&gt;Internal - using a &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; element in the HTML &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section&lt;/li&gt;
+  &lt;li&gt;External - using one or more external CSS files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this class we will mostly use external, but today we will start with internal. You can include CSS by using the &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag, like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Webpage Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+		
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;color&quot;&gt;Color&lt;/h2&gt;
+
+&lt;p&gt;There are three ways you can convey color to the browser:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;By name&lt;/strong&gt;&lt;br /&gt;
+There are &lt;a href=&quot;http://www.w3schools.com/html/html_colornames.asp&quot;&gt;140 color names&lt;/a&gt; you can use in your CSS. The browsers knows that these names corespond to a specific shade of color.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;By hexadecimal value&lt;/strong&gt;&lt;br /&gt;
+A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF, where 00 is the least amount and FF is the greatest. For example, if you were counting from least to greatest it would look like this:&lt;/p&gt;
+
+&lt;p&gt;00, 01, 02, 03 … F0, F1, F2, F3, F4, F5, F6, F7, F8, F9, FA, FB, FC, FD, FE, FF&lt;/p&gt;
+
+&lt;p&gt;For example, the #0000FF value is rendered as blue, because the blue component is set to its highest value (FF) and the others are set to the lowest value (00).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;By RGB value&lt;/strong&gt;&lt;br /&gt;
+An RGB color value is specified with: rgb(red, green, blue). Each parameter (red, green, and blue) defines the intensity of the color and can be an integer between 0 and 255.&lt;/p&gt;
+
+&lt;p&gt;For example, the rgb(0,0,255) value is rendered as blue, because the blue parameter is set to its highest value (255) and the others are set to 0.&lt;/p&gt;
+
+&lt;h3 id=&quot;example&quot;&gt;Example&lt;/h3&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;&lt;tr&gt;
+    &lt;th style=&quot;width:25%&quot;&gt;Color&lt;/th&gt;
+    &lt;th style=&quot;width:25%&quot;&gt;Color HEX&lt;/th&gt;
+    &lt;th style=&quot;width:25%&quot;&gt;Color RGB&lt;/th&gt;
+    &lt;th&gt;Color Name&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;background-color:#FF0000&quot;&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td&gt;#FF0000&lt;/td&gt;
+    &lt;td&gt;rgb(255,0,0)&lt;/td&gt;
+    &lt;td&gt;Red&lt;/td&gt; 
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;background-color:#00FF00&quot;&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td&gt;#00FF00&lt;/td&gt;
+    &lt;td&gt;rgb(0,255,0)&lt;/td&gt;
+    &lt;td&gt;Green&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;background-color:#0000FF&quot;&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td&gt;#0000FF&lt;/td&gt;
+    &lt;td&gt;rgb(0,0,255)&lt;/td&gt;
+    &lt;td&gt;Blue&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;These three statements all do the same thing:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#FFFFFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;rgb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.w3schools.com/html/html_colorvalues.asp&quot;&gt;Read more…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;assignment&quot;&gt;
+	&lt;h3&gt;Classwork&lt;/h3&gt;
+	&lt;ul&gt;
+  	&lt;li&gt;&lt;a href=&quot;/assignments/portfolio.html&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;assignment&quot;&gt;
+	&lt;h3&gt;Homework&lt;/h3&gt;
+	&lt;ul&gt;
+  	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;TBD - Due Feb 1&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;clear clearfix&quot;&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 16 Feb 2015 19:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2015/02/16/webpages.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/02/16/webpages.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Repetition</title>
+        <description>&lt;p&gt;again and again&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Feb 2015 15:50:00 -0500</pubDate>
+        <link>http://yourdomain.com/2015/02/09/repetition.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/02/09/repetition.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Logic</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/blindssuck.gif&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Feb 2015 15:50:00 -0500</pubDate>
+        <link>http://yourdomain.com/2015/02/02/logic.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/02/02/logic.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Introduction</title>
+        <description>&lt;h2 id=&quot;what-makes-a-webpage&quot;&gt;What makes a webpage&lt;/h2&gt;
+
+&lt;p&gt;Every webpage must have HTML. Most, but not all webpages, also use CSS and Javascript.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HTML: What is the content? How is it structured?&lt;/li&gt;
+  &lt;li&gt;CSS: What does it look like?&lt;/li&gt;
+  &lt;li&gt;JavaScript: What does it do?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variables-and-statements&quot;&gt;Variables and Statements&lt;/h2&gt;
+
+&lt;p&gt;Here is how you can create a variable to save your string:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myPhrase&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;This is a string&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;p5js&quot;&gt;p5.js&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/examples/drawing.js&quot; class=&quot;p5_example show-lab show-lab-link hidden&quot;&gt;test_example&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Shapes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;arc()&lt;/li&gt;
+  &lt;li&gt;ellipse()&lt;/li&gt;
+  &lt;li&gt;line()&lt;/li&gt;
+  &lt;li&gt;point()&lt;/li&gt;
+  &lt;li&gt;quad()&lt;/li&gt;
+  &lt;li&gt;rect()&lt;/li&gt;
+  &lt;li&gt;triangle()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;color&quot;&gt;Color&lt;/h2&gt;
+
+&lt;p&gt;background()
+clear()
+colorMode()
+fill()
+noFill()
+noStroke()
+stroke()&lt;/p&gt;
+
+&lt;p&gt;These all do the same thing:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;white&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;#FFFFFF&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;assignment&quot;&gt;
+	&lt;h3&gt;Classwork&lt;/h3&gt;
+	&lt;ul&gt;
+  	&lt;li&gt;&lt;a href=&quot;/assignments/portfolio.html&quot;&gt;Shapes&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;assignment&quot;&gt;
+	&lt;h3&gt;Homework&lt;/h3&gt;
+	&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;Scene&lt;/a&gt;&lt;/h4&gt;
+	&lt;p&gt;Create a recognizable scene (not an abstract drawing). It must use three different types of shapes. It should be complex, with a foreground and a background, and use different colors.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 26 Jan 2015 15:50:00 -0500</pubDate>
+        <link>http://yourdomain.com/2015/01/26/intro.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/01/26/intro.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

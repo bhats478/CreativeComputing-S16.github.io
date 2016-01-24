@@ -1,0 +1,138 @@
+---
+layout: default
+cssclass: home
+---
+
+
+
+    {% for post in site.posts reversed %}
+    <div>
+     <a href="{{ post.url | prepend: site.baseurl }}"  style="padding:10px;background-color:#99cc99;width:100%;display:block;margin:5px 0;color:#333;">
+        {{ post.classdate | date: "%b %-d" }} 
+        <!-- &gt;&gt; --> ==
+            {{ post.title }}
+          </a>
+        </div>
+     <!--  <tr class="{{ post.category }}">
+        <td class="post-date">
+          {{ post.classdate | date: "%b %-d" }}
+        </td>
+
+        <td class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a>
+        </td>
+      </tr> -->
+    {% endfor %}
+
+
+
+<!-- 
+ <table class="table table-hover table-bordered">
+    <tr>
+        <th>Week</th>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Assignments</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Jan 26, 2016</td>
+        <td><a href="#">Introduction 👋, set up development environment</a></td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Feb 2, 2016</td>
+        <td>Logic: operators, conditionals, random</td>
+        <td>
+          <ul><li><a href="#">classwork</a></li>
+          <li><a href="homework">homework</a></li></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Feb 9, 2016</td>
+        <td>Repetition: loops, arrays, grids</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Feb 16, 2016</td>
+        <td>The browser: HTML, CSS, the DOM</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Feb 23, 2016</td>
+        <td>Functions, scope</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>March 1, 2016</td>
+        <td>Events, Objects</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>March 8, 2016</td>
+        <td>Images</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>March 15, 2016</td>
+        <td>Midterm</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr class="no-class">
+        <td>9</td>
+        <td>March 22, 2016</td>
+        <td>Spring break: no class</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>March 29,2016</td>
+        <td>Storytelling</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>April 5, 2016</td>
+        <td>Tools</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>April 12, 2016</td>
+        <td>Games</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>April 19, 2016</td>
+        <td>Final Project Intro</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>April 26, 2016</td>
+        <td>Final Project Work Session</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>May 3, 2016</td>
+        <td>Final Project Work Session</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>May 10, 2016</td>
+        <td>Final Project Presentation 🎉</td>
+        <td><a href="#">Classwork</a></td>
+    </tr>
+
+</table> -->

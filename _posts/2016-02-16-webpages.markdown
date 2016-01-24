@@ -1,0 +1,291 @@
+---
+layout: post
+title:  "The browser"
+date:   2015-02-16 19:00:00 -0500
+classdate: 2016-02-16 19:00:00 -0500
+---
+
+## Lecture slides
+
+<iframe src="https://docs.google.com/presentation/d/1BGOw8c8G13o0Yw6_ZASsRMVF4-a1uhlKUU63djE76CE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+<hr />
+
+## Setting up your development environment
+
+We will be using Github and Cloud 9 for all Lab assignments. 
+
+
+1. Start by signing up for a [github](http://github.com) account if you haven't already. 
+
+<a href="http://github.com"><img src="/images/github-home.png" /></a>
+
+2. Then create an account on [Cloud9](http://c9.io) by using your new GitHub account:
+
+<a href="http://c9.io"><img src="/images/cloud9.png" /></a>
+
+<hr />
+
+## HyperText Markup Language (HTML)
+
+**Anatomy of an HTML document**
+
+
+{% highlight html %}
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Webpage Title</title>
+ </head>
+ <body>
+		
+ </body>
+</html>
+{% endhighlight %}
+
+The `<head>` is where meta-data about the webpage goes, such as the title and the CSS. The visible elements of a webpage go inside the `<body>` tag.
+
+These are some common tags we will use today:
+
+<div class="">
+<table class="table">
+	<tr>
+		<th>element</th>
+		<th>tag</th>
+		<th>description</th>
+		<th>example</th>
+	</tr>
+	<tr>
+		<td>h1</td>
+		<td><code class="highlighter-rouge">&lt;h1&gt; &lt;/h1&gt;</code></td>
+		<td>Heading 1</td>
+		<td>
+{% highlight html %}
+<h1>Example Heading</h1>
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>h2</td>
+		<td><code class="highlighter-rouge">&lt;h2&gt; &lt;/h2&gt;</code></td>
+		<td>Heading 2</td>
+				<td>
+{% highlight html %}
+<h2>Example Heading</h2>
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>h3</td>
+		<td><code class="highlighter-rouge">&lt;h3&gt; &lt;/h3&gt;</code></td>
+		<td>Heading 3</td>
+				<td>
+{% highlight html %}
+<h3>Example Heading</h3>
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>h4</td>
+		<td><code class="highlighter-rouge">&lt;h4&gt; &lt;/h4&gt;</code></td>
+		<td>Heading 4</td>
+				<td>
+{% highlight html %}
+<h4>Example Heading</h4>
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>p</td>
+		<td><code class="highlighter-rouge">&lt;p&gt; &lt;/p&gt;</code></td>
+		<td>Paragraph text</td>
+				<td>
+{% highlight html %}
+<p>Example text</p>
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>ul</td>
+		<td><code class="highlighter-rouge">&lt;ul&gt; &lt;/ul&gt;</code></td>
+		<td>Unordered list</td>
+				<td>
+{% highlight html %}
+<ul>
+ <li>Item 1</li>
+ <li>Item 2</li>
+</ul>
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>ol</td>
+		<td><code class="highlighter-rouge">&lt;ol&gt; &lt;/ol&gt;</code></td>
+		<td>Ordered list</td>
+						<td>
+{% highlight html %}
+<ol>
+ <li>Item 1</li>
+ <li>Item 2</li>
+</ol>
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>li</td>
+		<td><code class="highlighter-rouge">&lt;li&gt; &lt;/li&gt;</code></td>
+		<td>List item</td>
+						<td>
+{% highlight html %}
+<ul>
+ <li>Item 1</li>
+ <li>Item 2</li>
+</ul>
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>a</td>
+		<td><code class="highlighter-rouge">&lt;a href=""&gt; &lt;/a&gt;</code></td>
+		<td>Link</td>
+						<td>
+{% highlight html %}
+<a href="http://github.com">Link to github</a>
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>img</td>
+		<td><code class="highlighter-rouge">&lt;img src="" /&gt;</code></td>
+		<td>Image</td>
+								<td>
+{% highlight html %}
+<img src="/path/to/image.png" />
+{% endhighlight %}
+		</td>
+	</tr>
+	<tr>
+		<td>br</td>
+		<td><code class="highlighter-rouge">&lt;br /&gt;</code></td>
+		<td>Line break</td>
+								<td>
+{% highlight html %}
+<br />
+{% endhighlight %}
+		</td>
+	</tr>
+
+</table>
+</div>
+<hr />
+
+## Cascading StyleSheets (CSS)
+
+Styling can be added to HTML elements in 3 ways:
+
+* Inline - using a `style` attribute in HTML elements
+* Internal - using a `<style>` element in the HTML `<head>` section
+* External - using one or more external CSS files
+
+
+In this class we will mostly use external, but today we will start with internal. You can include CSS by using the `<style>` tag, like this: 
+
+{% highlight html %}
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Webpage Title</title>
+  <style>
+   body{
+    background-color: white;
+    color: #000;
+   }
+  </style>
+ </head>
+ <body>
+		
+ </body>
+</html>
+
+{% endhighlight %}
+
+<hr />
+
+## Color
+
+There are three ways you can convey color to the browser:
+
+**By name**  
+There are <a href="http://www.w3schools.com/html/html_colornames.asp">140 color names</a> you can use in your CSS. The browsers knows that these names corespond to a specific shade of color. 
+
+**By hexadecimal value**  
+A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF, where 00 is the least amount and FF is the greatest. For example, if you were counting from least to greatest it would look like this:
+
+00, 01, 02, 03 ... F0, F1, F2, F3, F4, F5, F6, F7, F8, F9, FA, FB, FC, FD, FE, FF
+
+For example, the #0000FF value is rendered as blue, because the blue component is set to its highest value (FF) and the others are set to the lowest value (00).
+
+
+**By RGB value**  
+An RGB color value is specified with: rgb(red, green, blue). Each parameter (red, green, and blue) defines the intensity of the color and can be an integer between 0 and 255.
+
+For example, the rgb(0,0,255) value is rendered as blue, because the blue parameter is set to its highest value (255) and the others are set to 0.
+
+
+### Example
+
+<table class="table">
+  <tbody><tr>
+    <th style="width:25%">Color</th>
+    <th style="width:25%">Color HEX</th>
+    <th style="width:25%">Color RGB</th>
+    <th>Color Name</th>
+  </tr>
+  <tr>
+    <td style="background-color:#FF0000">&nbsp;</td>
+    <td>#FF0000</td>
+    <td>rgb(255,0,0)</td>
+    <td>Red</td> 
+  </tr>
+  <tr>
+    <td style="background-color:#00FF00">&nbsp;</td>
+    <td>#00FF00</td>
+    <td>rgb(0,255,0)</td>
+    <td>Green</td>
+  </tr>
+  <tr>
+    <td style="background-color:#0000FF">&nbsp;</td>
+    <td>#0000FF</td>
+    <td>rgb(0,0,255)</td>
+    <td>Blue</td>
+  </tr>
+</tbody></table>
+
+These three statements all do the same thing: 
+
+{% highlight css %}
+body{
+	background-color: white;
+	background-color: #FFFFFF;
+	background-color: rgb(255,255,255);
+}
+{% endhighlight %}
+
+[Read more...](http://www.w3schools.com/html/html_colorvalues.asp)
+
+<br /><br /><br />
+
+<div class="assignment">
+	<h3>Classwork</h3>
+	<ul>
+  	<li><a href="/assignments/portfolio.html">Portfolio</a></li>
+	</ul>
+</div>
+<div class="assignment">
+	<h3>Homework</h3>
+	<ul>
+  	<li><a href="#">TBD - Due Feb 1</a></li>
+	</ul>
+</div>
+<div class="clear clearfix"></div>

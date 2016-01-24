@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="sl-wrapper {{page.cssclass}}">
+
+          {{ content }}
+          
+          <hr />
+    
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="contact-list studio">
+               <li>Alison Abreu-Garcia</li>
+                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="contact-list studio">
+                <li>Tues, 3:50–6:30pm</li>
+                <li>2 W 13th St, Room 810</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
