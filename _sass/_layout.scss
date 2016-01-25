@@ -1,6 +1,7 @@
 body{
     background-color: #153131;
 }
+h2{margin-top: 50px;}
 
 /*==============================
     Header
@@ -253,7 +254,7 @@ hr{margin:50px 0;clear:both;}
 /*==============================
     Classes
 ================================*/
-    
+
 .sl-wrapper{
     padding:1em;
     background-color:#efefef;
@@ -265,7 +266,39 @@ hr{margin:50px 0;clear:both;}
 .post-header {
     margin-bottom: $spacing-unit;
 }
+.class-link{
+    border:2px solid #D0CCD0;
+    background-color:#FBFCFF;
+    height: 52px;
+    width:100%;
+    margin:5px 0;
+    line-height: 50px;
+}
+.class-link a{
 
+    display:block;
+    color:#333;
+
+}
+.class-link a:hover{
+    background-color:#D0CCD0;
+    text-decoration: none;
+}
+.future{
+    background-color:#D0CCD0;
+    color:#FBFCFF;
+    .post-date{
+        border-right:2px solid #FFFFFF;
+    }
+}
+.post-date{
+    border-right:2px solid #D0CCD0;
+    padding:0 20px;
+    // height: 100%;
+    width: 100px;
+    display: inline-block;
+    margin-right: 20px;
+}
 
     /*---------------------------
         Lab
@@ -377,7 +410,7 @@ hr{margin:50px 0;clear:both;}
         -o-transform: rotate(-35deg);
         filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
     }
-   
+
 }
 /*==============================
     Code Editor/Preview
@@ -387,6 +420,3 @@ iframe{
     height: 500px;
     border:1px solid #999;
 }
-
-
-

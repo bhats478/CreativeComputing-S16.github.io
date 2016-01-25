@@ -3,12 +3,12 @@ layout: page
 permalink: /syllabus/
 ---
 
-<h1>Syllabus &gt; Creative Computing <a class="btn btn-default" href="#" role="button">Download PDF</a></h1>
+<h1>Syllabus &gt; Creative Computing <a class="btn btn-default" href="/images/PUCD_3035_A_AbreuGarcia_SP16.pdf" role="button">Download PDF</a></h1>
 
 
 **Parsons The New School for Design**  
-Art, Media &amp; Technology 
-Creative Computing 
+Art, Media &amp; Technology
+Creative Computing
 PUCD 2035    
 Spring 2016  
 Tuesdays, 3:50-6:30pm  
@@ -20,7 +20,7 @@ Office Hours: by appointment only or by email
 
 ## Course Description
 
-Creative Computing is designed to introduce students to programming as a creative medium—as a way of making and exploring. The coursework focuses on developing a vocabulary of interaction design principles that can then be applied across a range of platforms, rather than focusing on one specific programming language or framework. Students are encouraged to experiment with various media, tools, and techniques, ultimately producing a portfolio of interactive and visual projects designed for the screen. An emphasis is placed on research-based problem solving and a “learning through making” approach to technical skill building. 
+Creative Computing is designed to introduce students to programming as a creative medium—as a way of making and exploring. The coursework focuses on developing a vocabulary of interaction design principles that can then be applied across a range of platforms, rather than focusing on one specific programming language or framework. Students are encouraged to experiment with various media, tools, and techniques, ultimately producing a portfolio of interactive and visual projects designed for the screen. An emphasis is placed on research-based problem solving and a “learning through making” approach to technical skill building.
 
 
 ## Course Outline
@@ -36,22 +36,22 @@ Full descriptions of assignments will be posted to the class website. Many of th
     <tr>
         <td>1</td>
         <td>Jan 26, 2016</td>
-        <td>Introduction 👋, set up development environment</td>
+        <td>👋 Introduction, set up development environment</td>
     </tr>
     <tr>
         <td>2</td>
         <td>Feb 2, 2016</td>
-        <td>Logic: operators, conditionals, random</td>
+        <td>Repetition: loops, arrays, grids</td>
     </tr>
     <tr>
         <td>3</td>
         <td>Feb 9, 2016</td>
-        <td>Repetition: loops, arrays, grids</td>
+        <td>Logic &amp; Interaction: the mouse, operators, conditionals, random</td>
     </tr>
     <tr>
         <td>4</td>
         <td>Feb 16, 2016</td>
-        <td>The browser: HTML, CSS, the DOM</td>
+        <td>Interaction part 2: keyboard</td>
     </tr>
     <tr>
         <td>5</td>
@@ -66,7 +66,7 @@ Full descriptions of assignments will be posted to the class website. Many of th
     <tr>
         <td>7</td>
         <td>March 8, 2016</td>
-        <td>Images</td>
+        <td>Images, video, sound</td>
     </tr>
     <tr>
         <td>8</td>
@@ -116,70 +116,20 @@ Full descriptions of assignments will be posted to the class website. Many of th
 
 </table>
 
-
-## Assignments
-
-This is a brief overview of the assignments. Full descriptions and instructions will be posted to the course website. Assignments are to be submitted by 7pm on the date they are due. Late assignments will be docked 1 letter grade.
-
-1. **Portfolio:** Create a portfolio page where you will link your assignments from. 
-2. **TBD:** Style an existing webpage, only editing the CSS and not the HTML
-<!-- 3. **Restaurant:** Using an existing restaurant menu, create a webpage for it. -->
-3. **TBD**
-4. **TBD**
-<!-- 4. **User Flow:** Create a login and posting experience for a social media platform. -->
-5. **Final Project: TBD**
-
 ##Learning Outcomes
 
 Learning Outcomes
 By the end of the semester, students will be able to:
+1. Demonstrate knowledge of fundamental programming concepts
+2. Develop several visual & interactive projects
+3. Objectively present their design process and workflow
+4. Integrate a variety of media elements into their projects
+5. Problem solve with other students through reading other students’ code
+6. Demonstrate the ability to research and learn unfamiliar technical topics.
+7. Concept projects that use code in a creative way
 
 
-**Apply skills in HTML**
 
-* Standards: W3C, the World Wide Web Consortium: W3C recommendations as standards
-* Understand the difference between programming and markup 
-* Title, Meta (keywords/descriptions); !DOCTYPE and Document Type Definition 
-* HTML tags and the HTML Element Syntax including opening/closing tags, nested structures.
-* HTML Attributes: class, id, style, title
-* Headings, Paragraphs and Formatting
-* Links, lists, forms and images
-* The Box Model
-* HTML5 Semantic/Structural elements
-* HTML5 Media Elements
-
-
-**Apply skills in CSS**
-
-* Cascading Style Sheets, their storage in external CSS files and reference in HTML 
-* Styling backgrounds, text, links, lists and forms
-* Styling the Box Model: border, outline, margin, padding
-* Working with dimensions, positioning, display, floating and align
-* Color systems
-* Manipulating images with CSS
-* Using Webfonts
-* Using CSS to create interactive elements
-* Media queries and responsive design
-
-
-**Understand the meaning of JavaScript/JQuery**
-
-* Basic idea of JavaScript and JQuery
-
-
-**Prepare Images for the Web**
-
-* Digital Image Formats - what are they for and how are they created professionally: GIF, JPG, PNG
-* Working for different resolutions
-
-
-**Understand Web Environments**
-
-* Getting it online: Purchasing URL/Webspace
-* Use FTP to upload files
-* Use in-browser tools to troubleshoot and amend HTML/CSS
-* Search engine optimization
-* The role of content management systems / blog systems
 
 
 ## Final Grade Calculation
@@ -196,28 +146,24 @@ There is no specific textbook for the course, but I will occasionally assign rea
 
 ## Resources
 
-Links to resources will be posted to the class website, which can be found at http://alisonag.com/creativecomputing/
+Links to resources will be posted to the class website.
 
 ## Materials and Supplies  
 
-Students are required to bring their laptop to each class. 
-
-## Attendance
-
-Per New School policy, 3 or more absences or excessive tardiness will result in a failing grade. If you need to miss class, please email me in advance.
+Students are required to bring their laptop to each class.
 
 
 ## Grading Standards
 
 Within the context of this class, programming will be treated as both an extension of design (in a visual sense), and as a form of design in its own right. You should approach each project with intentionality and purpose.
 
-Grades reflect the degree of accomplishment in some or all of the following elements: 
+Grades reflect the degree of accomplishment in some or all of the following elements:
 
 1. concept
 2. execution
 3. preparation for class
-4. individual progress 
-5. class participation 
+4. individual progress
+5. class participation
 6. technical facility
 7. attendance
 
@@ -264,12 +210,21 @@ Students are responsible for all assignments, even if they are absent. Late assi
 Class participation is an essential part of class and includes: keeping up with reading, assignments, projects, contributing meaningfully to class discussions, active participation in group work, and coming to class regularly and on time.
 
 **Attendance**  
-Parsons’ attendance guidelines were developed to encourage students’ success in all aspects of their academic programs. Full participation is essential to the successful completion of coursework and enhances the quality of the educational experience for all, particularly in courses where group work is integral; thus, Parsons promotes high levels of attendance. Students are expected to attend classes regularly and promptly and in compliance with the standards stated in this course syllabus.
-While attendance is just one aspect of active participation, absence from a significant portion of class time may prevent the successful attainment of course objectives. A significant portion of class time is generally defined as the equivalent of three weeks, or 20%, of class time. Lateness or early departure from class may be recorded as one full absence. Students may be asked to withdraw from a course if habitual absenteeism or tardiness has a negative impact on the class environment.
-￼￼￼
-Whether the course is a lecture, seminar or studio, faculty will assess each student’s performance against all of the assessment criteria in determining the student’s final grade.
+Parsons’ attendance guidelines were developed to encourage students’ success in all aspects of their academic programs. Full participation is essential to the successful completion of coursework and enhances the quality of the educational experience for all, particularly in courses where group work is integral; thus, Parsons promotes high levels of attendance. Students are expected to attend classes regularly and promptly and in compliance with the standards stated in the course syllabus.
 
-**Blackboard or Canvas**  
+While attendance is just one aspect of active participation, absence from a significant portion of class time may prevent the successful attainment of course objectives. A significant portion of class time is generally defined as the equivalent of three weeks, or 20%, of class time. Lateness or early departure from class may be recorded by the instructor as one full absence. Students may be asked to withdraw from a course if habitual absenteeism or tardiness has a negative impact on the class environment.
+
+Members of the faculty are expected to provide syllabi in which course objectives and assessment criteria are described, in writing, at the beginning of the term. The syllabus should also articulate how attendance is assessed with respect to active participation.
+
+At Parsons, attendance and lateness are assessed as of the first day of classes. Students who register after a class has begun are responsible for any missed assignments and coursework. Students who must miss a class session should notify the instructor and arrange to make up any missed work as soon as possible. A student who anticipates an extended absence should immediately inform the faculty and his or her program advisor. Advance approval for an extended absence is required to ensure successful completion of the course. Withdrawal from the course may be recommended if the proposed absence would compromise a student’s ability to meet course objectives.
+
+Finally, faculty are asked to notify the student’s advisor for any student who misses two consecutive class sessions without explanation or who otherwise miss a significant portion of class time. Following two absences, students may be asked to speak with their advisor to review any impediments to their successful performance in class and, if so, to provide confirmation to the faculty member that such a conversation took place.
+
+Religious Absences and Equivalent Opportunity
+Pursuant to Section 224-a of the New York State Education Laws, any student who is absent from school because of his or her religious beliefs will be given an equivalent opportunity to register for classes or make up any examination, study, or work requirements which he or she may have missed because of such absence on any particular day or days. The student must inform the instructor at the beginning of the course of any anticipated absences due to religious observance.
+
+
+**Canvas**  
 Use of Canvas may be an important resource for this class. Students should check it for announcements before coming to class each week.
 
 **Delays**  

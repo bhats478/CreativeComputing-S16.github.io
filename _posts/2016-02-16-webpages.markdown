@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "The browser"
-date:   2015-02-16 19:00:00 -0500
+date:   2016-02-16 19:00:00 -0500
 classdate: 2016-02-16 19:00:00 -0500
+published: false
 ---
 
 ## Lecture slides
@@ -14,10 +15,10 @@ classdate: 2016-02-16 19:00:00 -0500
 
 ## Setting up your development environment
 
-We will be using Github and Cloud 9 for all Lab assignments. 
+We will be using Github and Cloud 9 for all Lab assignments.
 
 
-1. Start by signing up for a [github](http://github.com) account if you haven't already. 
+1. Start by signing up for a [github](http://github.com) account if you haven't already.
 
 <a href="http://github.com"><img src="/images/github-home.png" /></a>
 
@@ -39,7 +40,7 @@ We will be using Github and Cloud 9 for all Lab assignments.
   <title>Webpage Title</title>
  </head>
  <body>
-		
+
  </body>
 </html>
 {% endhighlight %}
@@ -189,7 +190,7 @@ Styling can be added to HTML elements in 3 ways:
 * External - using one or more external CSS files
 
 
-In this class we will mostly use external, but today we will start with internal. You can include CSS by using the `<style>` tag, like this: 
+In this class we will mostly use external, but today we will start with internal. You can include CSS by using the `<style>` tag, like this:
 
 {% highlight html %}
 <!DOCTYPE html>
@@ -204,7 +205,7 @@ In this class we will mostly use external, but today we will start with internal
   </style>
  </head>
  <body>
-		
+
  </body>
 </html>
 
@@ -217,7 +218,7 @@ In this class we will mostly use external, but today we will start with internal
 There are three ways you can convey color to the browser:
 
 **By name**  
-There are <a href="http://www.w3schools.com/html/html_colornames.asp">140 color names</a> you can use in your CSS. The browsers knows that these names corespond to a specific shade of color. 
+There are <a href="http://www.w3schools.com/html/html_colornames.asp">140 color names</a> you can use in your CSS. The browsers knows that these names corespond to a specific shade of color.
 
 **By hexadecimal value**  
 A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF, where 00 is the least amount and FF is the greatest. For example, if you were counting from least to greatest it would look like this:
@@ -246,7 +247,7 @@ For example, the rgb(0,0,255) value is rendered as blue, because the blue parame
     <td style="background-color:#FF0000">&nbsp;</td>
     <td>#FF0000</td>
     <td>rgb(255,0,0)</td>
-    <td>Red</td> 
+    <td>Red</td>
   </tr>
   <tr>
     <td style="background-color:#00FF00">&nbsp;</td>
@@ -262,7 +263,7 @@ For example, the rgb(0,0,255) value is rendered as blue, because the blue parame
   </tr>
 </tbody></table>
 
-These three statements all do the same thing: 
+These three statements all do the same thing:
 
 {% highlight css %}
 body{

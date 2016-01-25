@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Final project working session"
+date:   2016-05-03 15:50:00 -0500
+classdate: 2016-05-03 15:50:00 -0500
+---
+Coming soon.

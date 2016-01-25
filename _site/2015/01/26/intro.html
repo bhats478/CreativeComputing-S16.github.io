@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Introduction</title>
-  <meta name="description" content="What makes a webpage">
+  <title>Introduction: Hello World</title>
+  <meta name="description" content="What is programming?">
 
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://yourdomain.com/2015/01/26/intro.html">
-  <link rel="alternate" type="application/rss+xml" title="Core Interaction" href="http://yourdomain.com/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Creative Computing" href="http://yourdomain.com/feed.xml">
 
 </head>
 
@@ -48,37 +48,67 @@
             
           <li>
             <a href="https://github.com/">
-              Andrea
+              Sukrit Singh
             </a>
           </li>
         
           <li>
             <a href="https://github.com/">
-              Dominic
+              Guillermina
             </a>
           </li>
         
           <li>
             <a href="https://github.com/">
-              Gabriela
+              Bridget
             </a>
           </li>
         
           <li>
             <a href="https://github.com/">
-              Magdalena
+              Joshua
             </a>
           </li>
         
           <li>
             <a href="https://github.com/">
-              Maria
+              Marielle
             </a>
           </li>
         
           <li>
             <a href="https://github.com/">
-              Surkho
+              Souraya
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/">
+              Phoebe
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/">
+              Shannon
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/">
+              Raphael
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/">
+              Juan Diego
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/">
+              Longze
             </a>
           </li>
         
@@ -98,7 +128,7 @@
           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Introduction</h1>
+    <h1 class="post-title" itemprop="name headline">Introduction: Hello World</h1>
     <p class="post-meta"><time datetime="2015-01-26T15:50:00-05:00" itemprop="datePublished">Jan 26, 2015</time>  • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"></span></span></p>
   </header>
 
@@ -107,7 +137,16 @@
 
 
 
-    <h2 id="what-makes-a-webpage">What makes a webpage</h2>
+    <h2 id="what-is-programming">What is programming?</h2>
+
+<ul>
+  <li>A set of instructions</li>
+  <li>A way to generate data</li>
+  <li>A way to manipulate data</li>
+  <li>A way to respond to input</li>
+</ul>
+
+<h2 id="what-makes-a-webpage">What makes a webpage</h2>
 
 <p>Every webpage must have HTML. Most, but not all webpages, also use CSS and Javascript.</p>
 
@@ -117,55 +156,107 @@
   <li>JavaScript: What does it do?</li>
 </ul>
 
-<h2 id="variables-and-statements">Variables and Statements</h2>
-
-<p>Here is how you can create a variable to save your string:</p>
-
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">myPhrase</span> <span class="o">=</span> <span class="s2">&quot;This is a string&quot;</span><span class="p">;</span></code></pre></div>
+<h2 id="javascript">JavaScript</h2>
+<p>JavaScript is a programming language designed for the web.</p>
 
 <h2 id="p5js">p5.js</h2>
 
-<p><a href="/examples/drawing.js" class="p5_example show-lab show-lab-link hidden">test_example</a></p>
+<p>p5.js is a JavaScript library that makes coding more accessible for designers, artists, educators, and beginners.</p>
 
-<p><strong>Shapes</strong></p>
+<p><strong>Shapes</strong><br />
+There are seven 2D shapes you can draw using p5. We call these pieces of code with the parentheses <strong>methods</strong>. Each method takes a different set of <strong>parameters</strong>, or information, in order for it to work.</p>
 
-<ul>
-  <li>arc()</li>
-  <li>ellipse()</li>
-  <li>line()</li>
-  <li>point()</li>
-  <li>quad()</li>
-  <li>rect()</li>
-  <li>triangle()</li>
-</ul>
+<p><a href="/examples/shapes.js" class="p5_example show-lab show-lab-link hidden">shapes</a></p>
 
 <h2 id="color">Color</h2>
+<p><strong>Setting color in p5.js</strong><br />
+You can set the background of the canvas by using the <code>background()</code> method, the color of a shape by using the <code>fill()</code> method, and the color of the border of a shape by using the <code>stroke()</code> method. Note that lines only use <code>stroke()</code> to set their color, not <code>fill()</code> like the other shapes.</p>
 
-<p>background()
-clear()
-colorMode()
-fill()
-noFill()
-noStroke()
-stroke()</p>
+<p>There are a few ways you can convey color to these methods:</p>
 
-<p>These all do the same thing:</p>
+<p><strong>By name</strong><br />
+There are <a href="http://www.w3schools.com/html/html_colornames.asp">140 color names</a> you can use. The browsers knows that these names correspond to a specific shade of color.</p>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">fill</span><span class="p">(</span><span class="s2">&quot;white&quot;</span><span class="p">);</span>
+<p><strong>By hexadecimal value</strong><br />
+A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF, where 00 is the least amount and FF is the greatest. For example, if you were counting from least to greatest it would look like this:</p>
+
+<p>00, 01, 02, 03 … F0, F1, F2, F3, F4, F5, F6, F7, F8, F9, FA, FB, FC, FD, FE, FF</p>
+
+<p>For example, the #0000FF value is rendered as blue, because the blue component is set to its highest value (FF) and the others are set to the lowest value (00).</p>
+
+<p><strong>By Red Green Blue (RGB) value</strong><br />
+An RGB color value is specified with: <code>fill(red, green, blue)</code>. Each parameter (red, green, and blue) defines the intensity of the color and can be an integer between 0 and 255.</p>
+
+<p>For example, <code>fill(0,0,255)</code>  is rendered as blue, because the blue parameter is set to its highest value (255) and the others are set to 0.</p>
+
+<p><strong>By Hue Saturation Brightness (HSB)</strong><br />
+An HSB color takes three values: <code>fill(hue, saturation, brightness)</code>, similar to RGB, between 0 and 255.</p>
+
+<p><strong>Grayscale</strong><br />
+If you only give one number as the parameter for a color method then the program will use that value as the greyscale.</p>
+
+<p><strong>For example</strong><br />
+These all do the same thing:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">//by name</span>
+<span class="nx">fill</span><span class="p">(</span><span class="s2">&quot;white&quot;</span><span class="p">);</span>
+
+<span class="c1">//by RGB</span>
 <span class="nx">fill</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
-<span class="nx">fill</span><span class="p">(</span><span class="s2">&quot;#FFFFFF&quot;</span><span class="p">);</span></code></pre></div>
+
+<span class="c1">//Hex code</span>
+<span class="nx">fill</span><span class="p">(</span><span class="s2">&quot;#FFFFFF&quot;</span><span class="p">);</span>
+
+<span class="c1">//Grayscale</span>
+<span class="nx">fill</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+<span class="c1">//HSB: you have to set the color mode first</span>
+<span class="nx">colorMode</span><span class="p">(</span><span class="nx">HSB</span><span class="p">);</span>
+<span class="nx">fill</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">);</span></code></pre></div>
+
+<p><a href="/examples/drawing.js" class="p5_example show-lab show-lab-link hidden">color</a></p>
+
+<h2 id="github">Github</h2>
+
+<p>Create an account on <a href="http://github.com">GitHub.com</a>.</p>
+
+<p>Add your username to the shared doc.</p>
+
+<p>If you’re interested in learning more about GitHub and Open Source, check out <a href="https://www.youtube.com/watch?v=Tyd0FO0tko8">this video</a>.</p>
+
+<h2 id="github-desktop-application">GitHub Desktop Application</h2>
+
+<p>Download the <a href="https://desktop.github.com/">GitHub Desktop application</a>. We won’t be using it very much in class but it installs important things on your computer that will allow you to sync your computer with GitHub. When it opens, connect it to the GitHub account you just created.</p>
+
+<h2 id="atom">Atom</h2>
+
+<p>Download and install <a href="https://atom.io/">Atom</a> to your computer. This will be the text editor we use throughout the semester.</p>
+
+<p>Once Atom is open, click on “Install a Package”, search for and install “git-control”.</p>
+
+<h2 id="additional-topics">Additional topics</h2>
+
+<ul>
+  <li>statements (and the importance of the semi-colon)</li>
+  <li>function setup(){ … }</li>
+  <li>syntax highlighting</li>
+  <li>Versioning: forking, cloning, committing, pushing, pulling</li>
+  <li>Atom + Git</li>
+</ul>
 
 <div class="assignment">
 	<h3>Classwork</h3>
 	<ul>
-  	<li><a href="/assignments/portfolio.html">Shapes</a></li>
+  	<li><a href="/assignments/shapes.html">Shapes</a></li>
 	</ul>
 </div>
 <div class="assignment">
 	<h3>Homework</h3>
-	<h4><a href="#">Scene</a></h4>
-	<p>Create a recognizable scene (not an abstract drawing). It must use three different types of shapes. It should be complex, with a foreground and a background, and use different colors.</p>
+	<ul>
+  	<li><a href="/assignments/drawing.html">Drawing</a></li>
+  </ul>
 </div>
+<div class="clear clearfix"></div>
 
 
     
@@ -175,7 +266,7 @@ stroke()</p>
 
           
           <hr />
-    
+
           <div class="row">
             <div class="col-md-6">
               <ul class="contact-list studio">

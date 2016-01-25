@@ -1,9 +1,16 @@
 ---
 layout: post
-title:  "Introduction"
+title:  "Introduction: Hello World"
 date:   2015-01-26 15:50:00 -0500
 classdate: 2016-01-26 15:50:00 -0500
 ---
+
+## What is programming?
+
+* A set of instructions
+* A way to generate data
+* A way to manipulate data
+* A way to respond to input
 
 ## What makes a webpage
 
@@ -13,55 +20,108 @@ Every webpage must have HTML. Most, but not all webpages, also use CSS and Javas
 * CSS: What does it look like?
 * JavaScript: What does it do?
 
-## Variables and Statements
-
-Here is how you can create a variable to save your string:
-
-{% highlight javascript %}
-var myPhrase = "This is a string";
-{% endhighlight %}
-
+## JavaScript
+JavaScript is a programming language designed for the web.
 
 ## p5.js
 
-<a href="/examples/drawing.js" class="p5_example show-lab show-lab-link hidden">test_example</a>
+p5.js is a JavaScript library that makes coding more accessible for designers, artists, educators, and beginners.
 
-**Shapes**
+**Shapes**  
+There are seven 2D shapes you can draw using p5. We call these pieces of code with the parentheses **methods**. Each method takes a different set of **parameters**, or information, in order for it to work.
 
-* arc()
-* ellipse()
-* line()
-* point()
-* quad()
-* rect()
-* triangle()
+<a href="/examples/shapes.js" class="p5_example show-lab show-lab-link hidden">shapes</a>
+
 
 ## Color
+**Setting color in p5.js**  
+You can set the background of the canvas by using the `background()` method, the color of a shape by using the `fill()` method, and the color of the border of a shape by using the `stroke()` method. Note that lines only use `stroke()` to set their color, not `fill()` like the other shapes.
 
-background()
-clear()
-colorMode()
-fill()
-noFill()
-noStroke()
-stroke()
+There are a few ways you can convey color to these methods:
 
+**By name**  
+There are <a href="http://www.w3schools.com/html/html_colornames.asp">140 color names</a> you can use. The browsers knows that these names correspond to a specific shade of color.
+
+**By hexadecimal value**  
+A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF, where 00 is the least amount and FF is the greatest. For example, if you were counting from least to greatest it would look like this:
+
+00, 01, 02, 03 ... F0, F1, F2, F3, F4, F5, F6, F7, F8, F9, FA, FB, FC, FD, FE, FF
+
+For example, the #0000FF value is rendered as blue, because the blue component is set to its highest value (FF) and the others are set to the lowest value (00).
+
+
+**By Red Green Blue (RGB) value**  
+An RGB color value is specified with: `fill(red, green, blue)`. Each parameter (red, green, and blue) defines the intensity of the color and can be an integer between 0 and 255.
+
+For example, `fill(0,0,255)`  is rendered as blue, because the blue parameter is set to its highest value (255) and the others are set to 0.
+
+**By Hue Saturation Brightness (HSB)**  
+An HSB color takes three values: `fill(hue, saturation, brightness)`, similar to RGB, between 0 and 255.
+
+**Grayscale**  
+If you only give one number as the parameter for a color method then the program will use that value as the greyscale.
+
+**For example**  
 These all do the same thing:
 
 {% highlight javascript %}
+//by name
 fill("white");
+
+//by RGB
 fill(255, 255, 255);
+
+//Hex code
 fill("#FFFFFF");
+
+//Grayscale
+fill(0);
+
+//HSB: you have to set the color mode first
+colorMode(HSB);
+fill(0,0,255);
+
 {% endhighlight %}
+
+
+<a href="/examples/drawing.js" class="p5_example show-lab show-lab-link hidden">color</a>
+
+## Github
+
+Create an account on [GitHub.com](http://github.com).
+
+Add your username to the shared doc.
+
+If you're interested in learning more about GitHub and Open Source, check out [this video](https://www.youtube.com/watch?v=Tyd0FO0tko8).
+
+## GitHub Desktop Application
+
+Download the [GitHub Desktop application](https://desktop.github.com/). We won't be using it very much in class but it installs important things on your computer that will allow you to sync your computer with GitHub. When it opens, connect it to the GitHub account you just created.
+
+## Atom
+
+Download and install [Atom](https://atom.io/) to your computer. This will be the text editor we use throughout the semester.
+
+Once Atom is open, click on "Install a Package", search for and install "git-control".
+
+## Additional topics
+
+* statements (and the importance of the semi-colon)
+* function setup(){ ... }
+* syntax highlighting
+* Versioning: forking, cloning, committing, pushing, pulling
+* Atom + Git
 
 <div class="assignment">
 	<h3>Classwork</h3>
 	<ul>
-  	<li><a href="/assignments/portfolio.html">Shapes</a></li>
+  	<li><a href="/assignments/shapes.html">Shapes</a></li>
 	</ul>
 </div>
 <div class="assignment">
 	<h3>Homework</h3>
-	<h4><a href="#">Scene</a></h4>
-	<p>Create a recognizable scene (not an abstract drawing). It must use three different types of shapes. It should be complex, with a foreground and a background, and use different colors.</p>
+	<ul>
+  	<li><a href="/assignments/drawing.html">Drawing</a></li>
+  </ul>
 </div>
+<div class="clear clearfix"></div>

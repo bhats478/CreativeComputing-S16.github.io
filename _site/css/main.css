@@ -147,6 +147,9 @@ pre {
 body {
   background-color: #153131; }
 
+h2 {
+  margin-top: 50px; }
+
 /*==============================
     Header
 ================================*/
@@ -349,6 +352,35 @@ hr {
 
 .post-header {
   margin-bottom: 30px; }
+
+.class-link {
+  border: 2px solid #D0CCD0;
+  background-color: #FBFCFF;
+  height: 52px;
+  width: 100%;
+  margin: 5px 0;
+  line-height: 50px; }
+
+.class-link a {
+  display: block;
+  color: #333; }
+
+.class-link a:hover {
+  background-color: #D0CCD0;
+  text-decoration: none; }
+
+.future {
+  background-color: #D0CCD0;
+  color: #FBFCFF; }
+  .future .post-date {
+    border-right: 2px solid #FFFFFF; }
+
+.post-date {
+  border-right: 2px solid #D0CCD0;
+  padding: 0 20px;
+  width: 100px;
+  display: inline-block;
+  margin-right: 20px; }
 
 /*---------------------------
     Lab
