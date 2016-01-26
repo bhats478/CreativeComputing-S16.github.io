@@ -50,9 +50,9 @@ And here are methods for setting colors and borders:
 * [strokeWeight()](http://p5js.org/reference/#/p5/strokeWeight)
 * [colorMode()](http://p5js.org/reference/#/p5/colorMode)
 
-
+When you are done, scroll down to the "saving your changes to github" section of [this tutorial](/cloning/) for instructions on how to submit your classwork.
 
 <hr />
 <h2>Resources</h2>
-<a href="2015/01/28/getting-started.html" class="btn btn-default">class notes</a>
+<a href="/2015/01/26/intro.html" class="btn btn-default">class notes</a>
 <a href="http://p5js.org/reference/" class="btn btn-default"><i class="glyphicon glyphicon-new-window"></i> p5.js Reference</a>

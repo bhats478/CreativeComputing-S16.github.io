@@ -46,5 +46,5 @@ You will be graded on:
 
 <hr />
 <h2>Resources</h2>
-<a href="2015/01/28/getting-started.html" class="btn btn-default">class notes</a>
+<a href="/2015/01/26/intro.html" class="btn btn-default">class notes</a>
 <a href="http://p5js.org/reference/" class="btn btn-default"><i class="glyphicon glyphicon-new-window"></i> p5.js Reference</a>

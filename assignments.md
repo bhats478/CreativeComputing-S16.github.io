@@ -6,6 +6,7 @@ permalink: /assignments/
 
 All assignments are **due by 3:50pm** the date they are due. Late assignments will be penalized -10%.
 
+Assignments must be uploaded to GitHub to be considered turned in. [Here's a tutorial](/cloning/) on how to download assignments, and upload them to GitHub when you are done.
 
 
 <div class="assignments">
@@ -104,11 +105,3 @@ All assignments are **due by 3:50pm** the date they are due. Late assignments wi
 </div>
 
 <div class="clearfix clear"></div>
-<h2>Submitting your assignments</h2>
-Assignments must be uploaded to GitHub and linked to from your portfolio page.
-
-To submit your assignment to GitHub, enter the following commands in the command line of your project.
-<pre><code>git add .
-git commit -m 'description of change'
-git push
-</code></pre>
