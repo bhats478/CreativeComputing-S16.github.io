@@ -20,9 +20,6 @@ Every webpage must have HTML. Most, but not all webpages, also use CSS and Javas
 * CSS: What does it look like?
 * JavaScript: What does it do?
 
-## JavaScript
-JavaScript is a programming language designed for the web.
-
 ## p5.js
 
 p5.js is a JavaScript library that makes coding more accessible for designers, artists, educators, and beginners.

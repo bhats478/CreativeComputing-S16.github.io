@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Logic: To b or not to b"
+title:  "Logic"
 date:   2016-02-09 15:50:00 -0500
 classdate: 2016-02-09 15:50:00 -0500
 ---

@@ -4,11 +4,16 @@ title: "Drawing"
 due: Feb 2nd
 ---
 
+* Fork this repository: [https://github.com/CreativeComputing-S16/drawing](https://github.com/CreativeComputing-S16/drawing)
+* Clone to desktop
+* Open the folder in Atom
+
+
 Create a drawing that uses at least three different types of shapes (but you should use these shapes many times). It should be representational, not abstract. It should be complex and have a foreground and background. Consider composition and color.
 
-The goal of this assignment is for you to familiarize yourself with p5's shape and color methods which will be the foundation for many future assignments. 
+The goal of this assignment is for you to familiarize yourself with p5's shape and color methods which will be the foundation for many future assignments.
 
-Remember, the [p5.js reference page](http://p5js.org/reference/) has many examples to help you understand how to write these methods. 
+Remember, the [p5.js reference page](http://p5js.org/reference/) has many examples to help you understand how to write these methods.
 
 Here are examples of how to draw 2D shapes:
 
@@ -41,5 +46,5 @@ You will be graded on:
 
 <hr />
 <h2>Resources</h2>
-<a href="2015/01/28/getting-started.html" class="btn btn-default">class notes</a> 
-<a href="http://p5js.org/reference/" class="btn btn-default"><i class="glyphicon glyphicon-new-window"></i> p5.js Reference</a> 
+<a href="2015/01/28/getting-started.html" class="btn btn-default">class notes</a>
+<a href="http://p5js.org/reference/" class="btn btn-default"><i class="glyphicon glyphicon-new-window"></i> p5.js Reference</a>
