@@ -4,9 +4,10 @@ title: "Drawing"
 due: Feb 2nd
 ---
 
-* Fork this repository: [https://github.com/CreativeComputing-S16/drawing](https://github.com/CreativeComputing-S16/drawing)
-* Clone to desktop
-* Open the folder in Atom
+**Assignment folder:**  
+[https://github.com/CreativeComputing-S16/drawing](https://github.com/CreativeComputing-S16/drawing)
+
+For intsructions on how to download (fork and clone) this folder, [read this tutorial](/cloning/).
 
 
 Create a drawing that uses at least three different types of shapes (but you should use these shapes many times). It should be representational, not abstract. It should be complex and have a foreground and background. Consider composition and color.
@@ -43,6 +44,7 @@ You will be graded on:
 * creativity: 20%
 * composition: 20%
 
+When you are done, scroll down to the "saving your changes to github" section of [this tutorial](/cloning/) for instructions on how to submit your assignment.
 
 <hr />
 <h2>Resources</h2>

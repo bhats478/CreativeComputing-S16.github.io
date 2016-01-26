@@ -87,7 +87,7 @@ fill(0,0,255);
 
 Create an account on [GitHub.com](http://github.com).
 
-Add your username to the shared doc.
+Add your username to [the shared doc](https://docs.google.com/a/newschool.edu/document/d/1-FIM8lom7PHB_tC7xFTmc3ko-3yRr0kM11heySDkxFo/edit?usp=sharing).
 
 If you're interested in learning more about GitHub and Open Source, check out [this video](https://www.youtube.com/watch?v=Tyd0FO0tko8).
 

@@ -4,9 +4,10 @@ title: "Shapes"
 
 ---
 
-* Fork this repository: [https://github.com/CreativeComputing-S16/shapes](https://github.com/CreativeComputing-S16/shapes)
-* Clone to desktop
-* Open the folder in Atom
+**Assignment folder:**    
+[https://github.com/CreativeComputing-S16/shapes](https://github.com/CreativeComputing-S16/shapes)
+
+For intsructions on how to download (fork and clone) this folder, [read this tutorial](/cloning/).
 
 <p>Try recreating these drawings using p5. Feel free to use different colors.</p>
 
